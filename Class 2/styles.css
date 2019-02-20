@@ -41,7 +41,14 @@ nav.navbar a {
 	@media(min-width:768px){.container{background-color: blue;
 		width:750px;
 		margin: 0px auto;
-		}}
+		}
+		nav.navbar li{
+			display: inline-block;
+			}
+
+}
 
 @media(min-width:992px){.container{background-color: purple;
-	width:960px;}}
+	width:960px;}
+
+}
