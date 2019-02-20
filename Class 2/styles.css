@@ -8,6 +8,36 @@ width:100%;
 	min-height: 300px;
 }
 
+nav.navbar{
+	background-color: aqua;
+	width: 100%;
+	padding: 10px 0px;
+}
+nav.navbar ul {
+	list-style: none;
+	padding-left: 0px;
+	margin: 0px;
+	text-align: center;
+}
+
+nav.navbar li {
+	border-bottom: 2px solid orange;
+	
+}
+
+nav.navbar li:last-child{
+	border-bottom: none;
+	
+	
+}
+
+nav.navbar a {
+	font-size: 22px;
+	text-decoration: none;
+	color: darkblue;
+	line-height: 36px;
+}
+
 	@media(min-width:768px){.container{background-color: blue;
 		width:750px;
 		margin: 0px auto;
